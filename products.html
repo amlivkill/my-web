@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products | CHANGE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f7f7f7; margin: 0; }
+        .container { max-width: 900px; margin: 40px auto; background: #fff; padding: 40px; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);}
+        h1, h2 { color: #249624; }
+        h1 { text-align: center; margin-bottom: 20px;}
+        nav { margin-bottom: 32px; text-align: center; }
+        nav a {
+            display: inline-block; margin: 0 14px; color: #249624; text-decoration: none; font-weight: bold; padding: 8px 16px; border-radius: 4px;
+            transition: background 0.2s;
+        }
+        nav a:hover { background: #eafae5; }
+        .product-list { display: flex; flex-wrap: wrap; gap: 24px; margin: 20px 0; }
+        .product-item { background: #eafae5; padding: 22px 24px; border-radius: 8px; flex: 1 1 250px; margin-bottom: 16px; }
+        .product-title { font-weight: bold; color: #249624; margin-bottom: 8px; }
+        .note { background: #fff6e0; padding: 18px; border-radius: 8px; color: #665c2e; margin-top: 32px;}
+        @media (max-width: 600px) {
+            .container { padding: 16px; }
+            .product-list { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Our Products</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about-us.html">About Us</a>
+            <a href="objectives.html">Objectives</a>
+            <a href="programs.html">Programs</a>
+            <a href="enterprises.html">Enterprises</a>
+            <a href="news.html">News & Events</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="product-list">
+            <div class="product-item">
+                <div class="product-title">Organic Millets & Pulses</div>
+                <div>High-quality, GI-certified and organic millets, pulses, and grains grown by Uttarakhand farmers.</div>
+            </div>
+            <div class="product-item">
+                <div class="product-title">Traditional Himalayan Herbs</div>
+                <div>Medicinal and culinary herbs, including Tulsi, Bhutkeshi, Buransh, and more, harvested sustainably.</div>
+            </div>
+            <div class="product-item">
+                <div class="product-title">Forest Produce</div>
+                <div>Wild honey, berries, seeds, and other ethically sourced forest products processed by local cottage industries.</div>
+            </div>
+            <div class="product-item">
+                <div class="product-title">Vegan & Puja Materials</div>
+                <div>Handcrafted vegan products and puja materials prepared by women-led cooperative groups.</div>
+            </div>
+            <div class="product-item">
+                <div class="product-title">Processed & Value-added Goods</div>
+                <div>Pickles, jams, herbal teas, and snacks made from local agricultural and forest produce.</div>
+            </div>
+            <div class="product-item">
+                <div class="product-title">Solar Energy Solutions</div>
+                <div>Solar lamps, panels, and energy products supporting rural electrification and sustainable living.</div>
+            </div>
+        </div>
+        <div class="note">
+            <strong>Note:</strong> Many products are GI-tagged, Organic India/PGS certified, and available for both national and international markets. For bulk orders or custom requirements, please <a href="contact.html" style="color:#249624;">contact us</a>.
+        </div>
+    </div>
+</body>
+</html>

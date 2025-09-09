@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | CHANGE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f7f7f7; margin: 0; }
+        .container { max-width: 900px; margin: 40px auto; background: #fff; padding: 40px; border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,0.08);}
+        h1, h2 { color: #249624; }
+        h1 { text-align: center; margin-bottom: 20px;}
+        nav { margin-bottom: 32px; text-align: center; }
+        nav a {
+            display: inline-block; margin: 0 14px; color: #249624; text-decoration: none; font-weight: bold; padding: 8px 16px; border-radius: 4px;
+            transition: background 0.2s;
+        }
+        nav a:hover { background: #eafae5; }
+        form { background: #eafae5; padding: 24px; border-radius: 10px; margin-top: 24px;}
+        label { display: block; margin: 14px 0 6px 0; color: #249624; font-weight: bold;}
+        input, textarea { width: 100%; padding: 10px; margin-bottom: 16px; border-radius: 6px; border: 1px solid #b3ddb3;}
+        textarea { min-height: 90px; }
+        button { background: #249624; color: #fff; border: none; padding: 12px 28px; border-radius: 6px; font-size: 1em; cursor: pointer;}
+        button:hover { background: #176619; }
+        .contact-info { margin: 32px 0 0 0;}
+        .info-item { margin-bottom: 14px; }
+        .highlight { color: #249624; font-weight: bold;}
+        @media (max-width: 600px) {
+            .container { padding: 16px; }
+            form { padding: 12px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about-us.html">About Us</a>
+            <a href="objectives.html">Objectives</a>
+            <a href="programs.html">Programs</a>
+            <a href="products.html">Products</a>
+            <a href="enterprises.html">Enterprises</a>
+            <a href="news.html">News & Events</a>
+        </nav>
+        <p>
+            <strong>We’d love to hear from you!</strong><br>
+            For membership, partnership, volunteering, or any questions, please contact us using the form below or via our official contact details.
+        </p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <div class="info-item">
+                <span class="highlight">Registered Office:</span> Badshahi Thaul, Tehri Garhwal, Uttarakhand, India
+            </div>
+            <div class="info-item">
+                <span class="highlight">Email:</span> info@change-uttarakhand.org
+            </div>
+            <div class="info-item">
+                <span class="highlight">Phone:</span> +91-XXXXXXXXXX
+            </div>
+        </div>
+    </div>
+</body>
+</html>
